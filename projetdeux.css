@@ -440,19 +440,18 @@ body {
   margin-right: 262px;
 
   height: 100%;
-  border: 2px red solid;
+
 }
 
 .header-our-features {
   margin-top: 40px;
-  margin-bottom: 230px;
+  margin-bottom: 215px;
 }
 
 .our-team-division>.cards {
-
+  padding-top: 213px;
   background-size: contain;
-  width: 100%;
-  height: 100%;
+
 }
 
 .our-team-division>.cards>.cardlineone {
@@ -470,25 +469,268 @@ body {
   background-size: contain;
   background-color: white;
   margin-bottom: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
-
+  padding-left: 12px;
+  padding-right: 12px;
+  display: inline-block;
   width: 255px;
 }
 
 .picture-person-one {
 
   background-size: contain;
-  height: 255px;
-
+  width: 255px
 }
 
 .legende-card-one {
+  margin-top: -6px;
   padding: 16px;
-  border: 2px red solid;
+
+}
+
+.overlay-one {
+  position: absolute;
+  top: 213px;
+  left: 12px;
+  height: 255px;
+  width: 0px;
+  background-color: #007bff;
+  overflow: hidden;
+  transition: width 1s;
+
+}
+
+.overlay-two {
+  position: absolute;
+  top: 213px;
+  left: 295px;
+  height: 255px;
+  width: 0px;
+  background-color: #007bff;
+  overflow: hidden;
+  transition: width 1s;
+
+}
+
+.overlay-three {
+  position: absolute;
+  top: 213px;
+  left: 579px;
+  height: 255px;
+  width: 0px;
+  background-color: #007bff;
+  overflow: hidden;
+  transition: width 1s;
+
+}
+
+.overlay-four {
+  position: absolute;
+  top: 213px;
+  left: 862px;
+  height: 255px;
+  width: 0px;
+  background-color: #007bff;
+  overflow: hidden;
+  transition: width 1s;
+
+}
+
+.overlay-five {
+  position: absolute;
+  top: 565px;
+  left: 12px;
+  height: 255px;
+  width: 0px;
+  background-color: #007bff;
+  overflow: hidden;
+  transition: width 1s;
+
+}
+
+.overlay-six {
+  position: absolute;
+  top: 565px;
+  left: 295px;
+  height: 255px;
+  width: 0px;
+  background-color: #007bff;
+  overflow: hidden;
+  transition: width 1s;
+
+}
+
+.overlay-seven {
+  position: absolute;
+  top: 565px;
+  left: 579px;
+  height: 255px;
+  width: 0px;
+  background-color: #007bff;
+  overflow: hidden;
+  transition: width 1s;
+
+}
+
+.overlay-eight {
+  position: absolute;
+  top: 565px;
+  left: 862px;
+  height: 255px;
+  width: 0px;
+  background-color: #007bff;
+  overflow: hidden;
+  transition: width 1s;
+
+}
+
+.overlay-one ul {
+  list-style: none;
+}
+
+.cardone:hover .overlay-one {
+  width: 45px;
+}
+
+.overlay-two ul {
+  list-style: none;
+}
+
+.cardtwo:hover .overlay-two {
+  width: 45px;
+}
+
+.overlay-three ul {
+  list-style: none;
+}
+
+.cardthree:hover .overlay-three {
+  width: 45px;
+}
+
+.overlay-four ul {
+  list-style: none;
+}
+
+.cardfour:hover .overlay-four {
+  width: 45px;
+}
+
+.overlay-five ul {
+  list-style: none;
+}
+
+.cardfive:hover .overlay-five {
+  width: 45px;
+}
+
+.overlay-six ul {
+  list-style: none;
+}
+
+.cardsix:hover .overlay-six {
+  width: 45px;
+}
+
+.overlay-seven ul {
+  list-style: none;
+}
+
+.cardseven:hover .overlay-seven {
+  width: 45px;
+}
+
+.overlay-eight ul {
+  list-style: none;
+}
+
+.cardeight:hover .overlay-eight {
+  width: 45px;
+}
+
+
+.icons {
+  width: 35px;
+  padding-bottom: 20px;
+  padding-left: 4px;
+  padding-top: 10px;
+  color: #007bff;
+  border-radius: 20px;
 }
 
 
 
+.fa-facebook-f {
+  color: white;
+  background-color: #007bff;
+  width: 20px;
+  height: 20px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fa-twitter {
+
+  color: white;
+  background-color: #007bff;
+  width: 20px;
+  height: 20px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fa-linkedin-in {
+  color: white;
+  background-color: #007bff;
+  width: 20px;
+  height: 20px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fa-instagram {
+  color: white;
+  background-color: #007bff;
+  width: 20px;
+  height: 20px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title-card-one {
+  font-size: 19.2px;
+  color: black;
+  top: -10px;
+  font-weight: 400;
+
+}
+
+.para-card-one {
+  font-size: 12.8px;
+  color: #CCCCCC;
+  font-weight: 400;
+}
+
+.cardlinetwo {
+  top: 320px;
+  justify-content: space-between;
+  background-size: contain;
+
+
+  align-items: center;
+}
+
+.our-team-division>.cards>.cardlinetwo>.cardfive {
+  background-size: contain;
+  background-color: white;
+  margin-bottom: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: inline-block;
+  width: 255px;
+}
 
 /*==================PORTFOLIO================================*/
